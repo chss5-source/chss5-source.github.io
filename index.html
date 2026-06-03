@@ -1,54 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo do Henrique</title>
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <h1>Carlos Henrique Souza Do Santos</h1>
+    <h1>Cadastro de Cliente</h1>
+    
+    <p>Preencha os dados abaixo.</p>
 
-    <h2>Minha Aparencia </h2>
-    <img src=Minhafoto.jpg alt="Minhafoto.jpg" width="150">
+    <form>
+        <label>Nome:</label>
+        <input type="text">
+        <br>
 
-    <h2>Dados Pessoais</h2>
-    <p><b>Nome:</b> Carlos Henrique Souza dos Santos</p>
-    <p><b>Idade:</b> 16</p>
-    <p><b>Telefone:</b> (82) 996683307</p>
-    <p><b>Email:</b> chss5@aluno.ifal.edu.br</p>
-    <p><b>Cidade:</b> Boca da Mata - AL</p>
+        <label>E-mail:</label>
+        <input type="email">
+        <br>
 
-    <h2>Objetivo</h2>
-    <p>
-        Meu objetivo é conseguir uma oportunidade para aprender e desenvolver minhas habilidades
-        na área de tecnologia e informática.
-    </p>
+        <label>Senha:</label>
+        <input type="password">
+        <br>
 
-    <h2>Formação</h2>
-    <p>
-        <b>IFAL - Instituto Federal de Alagoas</b><br>
-        Curso: Desenvolvimento de Sistemas (em andamento)
-    </p>
+        <label>Data de Nascimento:</label>
+        <input type="date">
+        <br>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Conhecimento básico em informática</li>
-        <li>Boa comunicação</li>
-        <li>Trabalho em equipe</li>
-    </ul>
+        <label>Cidade:</label>
+        <select>
+            <option>Maceió</option>
+            <option>Recife</option>
+            <option>Salvador</option>
+        </select>
+        <br><br>
 
-    <h2>Experiências</h2>
-    <p>
-        Serviços como ajudante, entregas, organização, limpeza, montagem.
-    </p>
+        <label>Estado:</label>
+        <br>
 
-    <h2>Informações Complementares</h2>
-    <ul>
-        <li>Disponibilidade para aprender</li>
-    </ul>
- <a href=”Desenvolvimento de Sistemas - Campus Maceió — Instituto Federal de Alagoas” > link do curso<a/>
+        <input type="radio" id="al" name="estado" value="AL">
+        <label for="al">AL - Alagoas</label>
+        <br>
+
+        <input type="radio" id="pe" name="estado" value="PE">
+        <label for="pe">PE - Pernambuco</label>
+        <br>
+
+        <input type="radio" id="ba" name="estado" value="BA">
+        <label for="ba">BA - Bahia</label>
+        <br><br>
+
+        <label>Observações:</label>
+        <br>
+        <textarea></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>Carlos Henrique e Amilton</p>
+        <p>Desenvolvimento Web - 02/06/2026</p>
+    </footer>
 
 </body>
 </html>
