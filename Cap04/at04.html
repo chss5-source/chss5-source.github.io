@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Multimídia — Cap. 4 / Ativ. 4</title>
+</head>
+<body>
+
+<header>
+    <h1>Recursos Multimídia</h1>
+    <p>Capítulo 4 - Atividade 4</p>
+    <p><a href="../index.html">← Voltar para a página inicial</a></p>
+</header>
+
+<main>
+
+    <figure>
+        <video controls width="800" height="450" poster="poster-aula.jpg" preload="metadata">
+            <source src="videos/aula-html.mp4" type="video/mp4">
+            <source src="videos/aula-html.webm" type="video/webm">
+            <track src="legendas/aula-html.vtt" kind="subtitles" srclang="pt" label="Português" default>
+
+            <p>
+                Seu navegador não suporta vídeo.
+                <a href="videos/aula-html.mp4">Baixar o vídeo</a>.
+            </p>
+        </video>
+
+        <figcaption>
+            Aula introdutória sobre HTML5. Fonte: Material didático do curso.
+        </figcaption>
+    </figure>
+
+    <hr>
+
+    <figure>
+        <audio controls preload="metadata">
+            <source src="audio/podcast.mp3" type="audio/mpeg">
+            <source src="audio/podcast.ogg" type="audio/ogg">
+
+            <p>
+                Seu navegador não suporta áudio.
+                <a href="audio/podcast.mp3">Baixar o áudio</a>.
+            </p>
+        </audio>
+
+        <figcaption>
+            Episódio: Introdução ao HTML5.
+            <a href="transcricao.html">Transcrição</a>
+        </figcaption>
+    </figure>
+
+    <hr>
+
+    <figure>
+        <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube-nocookie.com/embed/Ejkb_YpuHWs"
+            title="Curso de HTML para Iniciantes"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+        <figcaption>
+            Vídeo: Curso de HTML para Iniciantes. Canal: Curso em Vídeo. Plataforma: YouTube.
+        </figcaption>
+    </figure>
+
+    <hr>
+
+    <figure>
+        <picture>
+            <source media="(min-width: 768px)" srcset="img/banner-wide.jpg">
+
+            <img
+                src="img/banner-mobile.jpg"
+                alt="Banner ilustrando tecnologias para desenvolvimento web."
+                width="800"
+                height="450">
+        </picture>
+
+        <figcaption>
+            Banner ilustrativo sobre tecnologias utilizadas no desenvolvimento web.
+        </figcaption>
+    </figure>
+
+</main>
+
+<footer>
+    <p><strong>Nome:</strong> Carlinhos</p>
+    <p><strong>Turma:</strong> 921-C</p>
+    <p><strong>Data:</strong> 05/08/2026</p>
+</footer>
+
+</body>
+  </html>
