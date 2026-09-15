@@ -12,9 +12,9 @@
   --texto: #173342;
   --suave: #58717D;
   --fundo: #EAF5F7;
-  --superficie: #FFFFFF;
+  --superficie: #F8FCFD;
   --borda: #C9E0E7;
-  --raio: 16px;
+  --raio: 12px;
 }
 body {
   margin: 0;
